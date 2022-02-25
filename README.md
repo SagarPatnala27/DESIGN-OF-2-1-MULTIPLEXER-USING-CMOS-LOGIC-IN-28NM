@@ -32,6 +32,7 @@ I Designed Circuit with W/L RATIO OF PMOS IS 2.5 TIMES THAT OF NMOS
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/capacitor_properties1.PNG)
 
 
+
 ## Implemented Circuit Diagram
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/schematic2.PNG)
 ## Testbench
