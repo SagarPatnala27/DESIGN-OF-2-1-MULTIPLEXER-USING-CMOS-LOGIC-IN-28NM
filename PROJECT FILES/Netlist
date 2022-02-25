@@ -1,0 +1,48 @@
+*  Generated for: PrimeSim
+*  Design library name: Mux
+*  Design cell name: two:one_tb
+*  Design view name: schematic
+.lib '/PDK/SAED_PDK32nm/hspice/saed32nm.lib' TT
+*Custom Compiler Version S-2021.09
+*Fri Feb 25 08:20:14 2022
+.global gnd!
+* Library          : Mux
+* Cell             : two:one
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+.subckt two:one a b s y
+v52 net134 gnd! dc=1.8
+v45 net128 gnd! dc=1.8
+v46 net125 gnd! dc=1.8
+xm39 net146 a net150 net134 p105 w=0.25u l=0.03u nf=1 m=1
+xm44 y net146 net125 net125 p105 w=0.25u l=0.03u nf=1 m=1
+xm43 net144 s net128 net128 p105 w=0.25u l=0.03u nf=1 m=1
+xm40 net150 b net134 net134 p105 w=0.25u l=0.03u nf=1 m=1
+xm41 net150 net144 net134 net134 p105 w=0.25u l=0.03u nf=1 m=1
+xm42 net146 s net150 net134 p105 w=0.25u l=0.03u nf=1 m=1
+xm38 net144 s gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm35 net146 b net82 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm36 net146 a net86 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm37 y net146 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm33 net86 s gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm34 net82 net144 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+.ends two:one
+* Library          : Mux
+* Cell             : two:one_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+xi0 a b s net21 two:one
+c10 net21 gnd! c=1p
+v4 s gnd! dc=0 pulse ( 0 1.8 0 .1u .1u 20u 40u )
+v3 b gnd! dc=0 pulse ( 0 1.8 0 .1u .1u 10u 20u )
+v2 a gnd! dc=0 pulse ( 0 1.8 0 .1u .1u 5u 10u )
+.tran '1u' '100u' name=tran
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(a) v(b) v(s) v(net21)
+.temp 25
+.option primesim_output=wdf
+.option parhier = LOCAL
+.end
