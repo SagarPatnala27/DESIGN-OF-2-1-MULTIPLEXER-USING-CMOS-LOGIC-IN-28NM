@@ -27,4 +27,5 @@ A 2 to 1 multiplexer consists of two inputs ‘A’ and ‘B’, one select inpu
 ## Implemented Circuit Diagram
 ## Implemented Waveforms
 ## References
-![Image text]
+
+
