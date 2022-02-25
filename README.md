@@ -18,6 +18,7 @@ A 2 to 1 multiplexer consists of two inputs ‘A’ and ‘B’, one select inpu
 
 ## Specifications
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/a_properties.PNG)
+![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/b_properties.PNG)
 ## Implemented Circuit Diagram
 ## Implemented Waveforms
 ## References
