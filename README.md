@@ -43,8 +43,8 @@ Synopsys 28nm PDK: The Synopsys 28nm Process Design Kit(PDK) was used in creatio
 ## Implemented Waveforms
 ![Simulation](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/timing.PNG)
 
-## netlist
-Refer to the netlist of the circuit here: [NetList](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/netlist.txt)
+## Netlist
+Refer to the netlist of the circuit here: [Netlist](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/netlist.txt)
 
 ## Acknowledgements
 Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
