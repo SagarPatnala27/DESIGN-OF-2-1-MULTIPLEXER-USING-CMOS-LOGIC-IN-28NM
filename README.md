@@ -2,59 +2,19 @@
 This repository presents the design of 2:1 mulitiplexer implemented using Synopsis Custom compiler on 28nm CMOS Technology
 ## Table of Contents
 1. [Abstract](#abstract)
-2. [Circuit Details](#technologies)
-3. [Implemented Circuit Diagram](#installation)
-4. [Implemented Waveforms](#collaboration)
-5. [FAQs](#faqs)
-# Abstract
-*  Generated for: PrimeSim
-*  Design library name: Mux
-*  Design cell name: two:one_tb
-*  Design view name: schematic
-.lib '/PDK/SAED_PDK32nm/hspice/saed32nm.lib' TT
+2. [Circuit Details](#circuit-details)
+3. [Specifications](#specifications)
+4. [Implemented Circuit Diagram](#implemented-circuit-diagram)
+5. [Implemented Waveforms](#implemented-waveforms)
+6. [References](#references)
+## Abstract
+A multiplexer is a unidirectional device which is used in any application in which data must be switched from mul- tiple sources to a destination. It is a combinational circuit which has a maximum of 2 to the power n data inputs, ‘n’ selection lines and a single output line. One of these data inputs will be connected to the output based on the values  of the selection lines. Multiplexers are used in building dig- ital semiconductors such as CPUs and graphics controller, as programmable logic devices, in computer networks and digital video. This paper presents a 2:1 multiplexer using CMOS logic. The implementation is done in VLSI technol- ogy as it has features like small size, low cost, high operat- ing speed and low power.
 
-*Custom Compiler Version S-2021.09
-*Fri Feb 25 08:20:14 2022
+Keywords- CMOS, PMOS, NMOS, Multiplexer,Inverter
 
-.global gnd!
-********************************************************************************
-* Library          : Mux
-* Cell             : two:one
-* View             : schematic
-* View Search List : hspice hspiceD schematic spice veriloga
-* View Stop List   : hspice hspiceD
-********************************************************************************
-.subckt two:one a b s y
-v52 net134 gnd! dc=1.8
-v45 net128 gnd! dc=1.8
-v46 net125 gnd! dc=1.8
-xm39 net146 a net150 net134 p105 w=0.25u l=0.03u nf=1 m=1
-xm44 y net146 net125 net125 p105 w=0.25u l=0.03u nf=1 m=1
-xm43 net144 s net128 net128 p105 w=0.25u l=0.03u nf=1 m=1
-xm40 net150 b net134 net134 p105 w=0.25u l=0.03u nf=1 m=1
-xm41 net150 net144 net134 net134 p105 w=0.25u l=0.03u nf=1 m=1
-xm42 net146 s net150 net134 p105 w=0.25u l=0.03u nf=1 m=1
-xm38 net144 s gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm35 net146 b net82 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm36 net146 a net86 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm37 y net146 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm33 net86 s gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm34 net82 net144 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-.ends two:one
-
-********************************************************************************
-* Library          : Mux
-* Cell             : two:one_tb
-* View             : schematic
-* View Search List : hspice hspiceD schematic spice veriloga
-* View Stop List   : hspice hspiceD
-********************************************************************************
-xi0 a b s net21 two:one
-c10 net21 gnd! c=1p
-v4 s gnd! dc=0 pulse ( 0 1.8 0 .1u .1u 20u 40u )
-v3 b gnd! dc=0 pulse ( 0 1.8 0 .1u .1u 10u 20u )
-v2 a gnd! dc=0 pulse ( 0 1.8 0 .1u .1u 5u 10u )
-
-# Technologies
-# Implemented  Circuit Diagram
+## Circuit Details
+## Specifications
+## Implemented Circuit Diagram
+## Implemented Waveforms
+## References
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/schematic2.PNG)
