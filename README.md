@@ -1,4 +1,4 @@
-# DESIGN OF 2:1 MULTIPLEXER USING CMOSLOGIC in 28nm 
+# DESIGN OF 2:1 MULTIPLEXER USING CMOS LOGIC in 28nm 
 This repository presents the design of 2:1 mulitiplexer implemented using Synopsis Custom compiler on 28nm CMOS Technology
 ## Table of Contents
 1. [Abstract](#abstract)
@@ -26,6 +26,8 @@ Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and fl
 Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 ## Specifications
 I Designed Circuit with W/L RATIO OF PMOS IS 2.5 TIMES THAT OF NMOS
+![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/Nmos.PNG)
+![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/Pmos.PNG)
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/a_properties.PNG)
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/b_properties.PNG)
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/c_properties.PNG)
@@ -43,12 +45,11 @@ I Designed Circuit with W/L RATIO OF PMOS IS 2.5 TIMES THAT OF NMOS
 ## netlist
 Refer to the netlist of the circuit here: [NetList](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/Netlist)
 ## Acknowledgements
-Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
-Cloud Based Analog IC Design Hackathon
-Synopsys India
-Dr.Neelam Rup Prakash
-Dr.Jasbir
-Chinmay panda, IIT Hyderabad
+1.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.,
+2.Cloud Based Analog IC Design Hackathon
+3.Synopsys India
+4.Dr.Neelam Rup Prakash
+5.Dr.Jasbir
 
 ## References
 [1]	Shweta Agarwal ,Khyati Sharma Design and Simulation of 2:1 MUX Using Various CMOS logic at different level of Technology www.jetir.org
