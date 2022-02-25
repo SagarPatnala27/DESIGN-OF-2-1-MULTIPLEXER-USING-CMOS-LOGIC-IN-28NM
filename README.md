@@ -38,9 +38,18 @@ Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in crea
 ## Implemented Waveforms
 ![Image text](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/timing.PNG)
 ## netlist
-
+Refre to the netlist of the circuit here: [NetList](https://github.com/SagarPatnala27/DESIGN-OF-2-1-MULTIPLEXER-USING-CMOS-LOGIC-IN-28NM/blob/main/PROJECT%20FILES/Netlist)
 ## Acknowledgements
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+Cloud Based Analog IC Design Hackathon
+Synopsys India
+Sameer Durgoji, NIT Karnataka
+Chinmay panda, IIT Hyderabad
 
 ## References
+[1]	Shweta Agarwal ,Khyati Sharma Design and Simulation of 2:1 MUX Using Various CMOS logic at different level of Technology www.jetir.org
+[2]	Ila Gupta, Neha Arora, Prof. B. P. Singh , New Design of High Performance 2:1 Multiplexer ,International Journal of Engineering Research and Applications (IJERA) ISSN: 2248-9622 www.ijera.com
+[3]	K.  Sharma.  Low  power  and  high   speed   2:1  mux various cmos logic using svl technique. https://www.ijrar.org/papers/IJRAR1944227.pdf.
+
 
 
